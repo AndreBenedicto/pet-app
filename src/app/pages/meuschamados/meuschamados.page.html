@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar color="medium">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Meus chamados</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <ion-item lines="none">
+        <ion-icon name="archive-outline" slot="start" color="secondary "></ion-icon>
+        <ion-label>Processando
+        <p>30/09/2021 16:45</p>
+      </ion-label>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>
+          <p>Chamado criado no dia 30/09/2021</p>
+          <p>Notas: O animal era de pequeno porte.</p>
+        </ion-label>
+      </ion-item>
+      <ion-button color="medium" fill="clear" size="full">Veja mais...</ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <ion-item lines="none">
+        <ion-icon name="hourglass-outline" slot="start" color="warning "></ion-icon>
+        <ion-label>Banho e tosa
+        <p>01/10/2021 14:59</p>
+      </ion-label>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>
+          <p>Chamado criado no dia 30/09/2021</p>
+          <p>Notas: O animal era de pequeno porte.</p>
+        </ion-label>
+      </ion-item>
+      <ion-button color="medium" fill="clear" size="full">Veja mais...</ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <ion-item lines="none">
+        <ion-icon name="checkmark-circle-outline" slot="start" color="primary"></ion-icon>
+        <ion-label>Concluido
+        <p>01/10/2021 22:59</p>
+      </ion-label>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>
+          <p>Chamado criado no dia 30/09/2021</p>
+          <p>Notas: O animal era de pequeno porte.</p>
+        </ion-label>
+      </ion-item>
+      <ion-item line="none">
+        <ion-icon name="trophy" slot="start" color="medium"></ion-icon>
+        <ion-label color="medium">$ 30,00</ion-label>
+      </ion-item>
+      <ion-button color="medium" fill="clear" size="full">Veja mais...</ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-button size="full" color="medium" (click)="newPickupCall()">Voltar para o home</ion-button>
+</ion-content>

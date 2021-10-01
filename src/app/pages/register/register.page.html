@@ -1,0 +1,85 @@
+<ion-header>
+  <ion-toolbar color="medium">
+    <ion-buttons slot="start">
+      <ion-back-button title=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Registro pet shop Anhembi</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Você possui um pet de estimação?</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-radio-group>
+    
+        <ion-item>
+          <ion-label>Sim, eu tenho!</ion-label>
+          <ion-radio value="cord"></ion-radio>
+        </ion-item>
+    
+        <ion-item>
+          <ion-label>Ainda não!</ion-label>
+          <ion-radio value="duesenberg"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-card-content>
+</ion-card>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Contato</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-item>
+      <ion-label position="floating">Nome</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Email</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Confirmar senha</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Telefone</ion-label>
+      <ion-input type="tell"></ion-input>
+    </ion-item>
+  </ion-card-content>
+</ion-card>
+<ion-card>
+  <ion-card-header>
+    <ion-card-title>Informações de endereço</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-item>
+      <ion-label position="floating">Endereço</ion-label>
+      <ion-input type="texto"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Número</ion-label>
+      <ion-input type="tel"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Bairro</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Complemento</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="floating">Estado</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+  </ion-card-content>
+  <ion-button color="medium" (click)= "register()">Registro</ion-button>
+</ion-card>
+</ion-content>
