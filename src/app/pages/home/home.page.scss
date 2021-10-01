@@ -1,0 +1,21 @@
+ion-label{
+    display:block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+ion-list{
+    padding: 0px;
+    box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 20%);
+    .money{
+        font-weight: bold;
+    }
+}
+ion-card{
+    ion-card-subtitle{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    p{
+        white-space: normal;
+    }
+}

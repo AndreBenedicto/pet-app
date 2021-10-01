@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar color="medium">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>Novos chamados</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <img class="imagem" src="https://www.oficinadanet.com.br/imagens/post/22755/mapsss.jpg">
+  <ion-card>
+    <ion-card-content>
+      <p>Endereço: Rua da anhembi morumbi, 537</p>
+      <p>Complemento: Próximo ao banco do santander</p>
+      <p>Bairro: Mooca</p>
+      <p>Cidade: São Paulo</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
+    <ion-item lines="inset">
+      <ion-label position="floating">O que deseja ?</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+  </ion-list>
+  <ion-button size="full" color="medium" (click)="newPickupCall()">Criar novo chamado</ion-button>
+</ion-content>
